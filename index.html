@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/responsividad.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Inicio</title>
+</head>
+<body>
+  <header class="encabezado">
+    <ul>
+      <li style="float: left;"><img src="/images/logo2.png" alt="logo_eShop" id="logo"></li>
+      <li><a href="/InicioSesion.html">Iniciar sesión</a></li>
+      <li><a href="/crearCuenta.html">Crear cuenta</a></li>
+    </ul>
+    <div class="barraMenu">
+      <ul>
+        <li><a href="/categorias.html">Categorias</a></li>
+        <li><a href="/tendencias.html">Tendencias</a></li>
+      </ul>  
+    </div>
+  </header>
+  <section class="parallax-bg" data-parallax-image="/images/fondoPrincipal.jpg">
+    <div class="container estiloContainer">
+        <h1>Bienvenidos a eShop</h1>
+        <p id="pinicial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vel excepturi corporis a perspiciatis, magnam maxime? Sed consequuntur architecto itaque, voluptatibus voluptate consequatur libero recusandae veniam fuga soluta, velit accusamus!</p>
+    </div>
+  </section>
+  <div class="container estiloContainer">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eius voluptatibus quam provident facilis. Enim soluta, assumenda natus commodi blanditiis reprehenderit. Architecto omnis doloremque enim laudantium explicabo consectetur, sequi officiis.</p>
+  </div>
+  <section class="parallax-bg" data-parallax-image="/images/prueba1.jpg">
+    <div class="container estiloContainer">
+      <h1>Section Two</h1>
+    </div>
+  </section>
+  <section class="parallax-bg" data-parallax-image="/images/prueba2.jpg">
+    <div class="container estiloContainer">
+      <h1>Section Two</h1>
+    </div>
+  </section>
+  
+  <script src="/jquery.diurnal.js"></script>
+  <script src="/jquery.diurnal.min.js"></script>
+  <script>
+    $('.parallax-bg').dParallax();
+  </script>
+</body>
+</html>
